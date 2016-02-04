@@ -3,7 +3,7 @@ $(function() {
     $window = $(window),
     $largeBox = $('.large-box'), //大图容器
     $largeImg = $largeBox.find('.large-img'), //大图
-    win_width = $window.width(), //窗口宽度
+    win_width = $window.width()>640 ? 640 : $window.width(), //窗口宽度
     win_height = $window.height(), //窗口高度
     padding = 2, //li的margin
     totalLi = 17, //图片的总数
