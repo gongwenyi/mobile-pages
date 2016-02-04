@@ -3,7 +3,10 @@
   padding: 0;
 }
 body{
+  width: 100%;
+  max-width: 640px;
   height: 100%;
+  margin: 0 auto;
   background-color: #000;
 }
 ul{
